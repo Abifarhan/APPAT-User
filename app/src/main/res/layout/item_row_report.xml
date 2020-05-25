@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageview_result_report"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/textview_location_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="Banda Aceh"
+            app:layout_constraintStart_toEndOf="@+id/imageview_result_report"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_date_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="15-02-2-2020"
+            app:layout_constraintEnd_toEndOf="@+id/textview_location_result"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textview_location_result"
+            app:layout_constraintTop_toBottomOf="@+id/textview_location_result" />
+
+        <TextView
+            android:id="@+id/textview_description_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Seorang anak laki-laki terlantar"
+            app:layout_constraintEnd_toStartOf="@+id/text_view_date_result"
+            app:layout_constraintHorizontal_bias="0.233"
+            app:layout_constraintStart_toStartOf="@+id/imageview_result_report"
+            app:layout_constraintTop_toBottomOf="@+id/imageview_result_report" />
+
+        <TextView
+            android:id="@+id/textview_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:text="belum terverifikasi"
+            app:layout_constraintEnd_toEndOf="@+id/text_view_date_result"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toEndOf="@+id/imageview_result_report"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_date_result"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textview_rating_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="4"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

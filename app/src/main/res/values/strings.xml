@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">APPAT</string>
+    <string name="password">Password</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Beranda</string>
+    <string name="menu_gallery">Buat  Pelaporan</string>
+    <string name="menu_slideshow">Beri Rating</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="logout">Logout</string>
+    <string name="username">username</string>
+    <string name="email">Email</string>
+    <string name="tentang_appat">Tentang APPAT</string>
+    <string name="appat_merupakan_aplikasi_yang_digunakan_sebagai_saranan_pelaporan_tentang_keberadaan_anak_anak_terlantar_di_jalanan_kepada_pemerintah_melalui_aplikasi_ini_masyarakat_turut_berpartisipasi_dalam_menolong_dan_menyelamatkan_anak_anak_terlantar_demi_masa_depan_mereka_cukup_dengan_satu_foto_pelaporan_yang_anda_berikan_maka_anda_telah_membantu_kami_dalam_menyelamatkan_masa_depan_mereka">APPAT merupakan aplikasi yang digunakan sebagai saranan pelaporan tentang keberadaan anak-anak terlantar di jalanan kepada pemerintah. Melalui aplikasi ini, masyarakat turut berpartisipasi dalam menolong dan menyelamatkan anak-anak terlantar demi masa depan mereka. Cukup dengan satu foto pelaporan yang anda berikan, maka anda telah membantu kami dalam menyelamatkan masa depan mereka</string>
+    <string name="mulai_pelaporan">Mulai Pelaporan</string>
+</resources>
