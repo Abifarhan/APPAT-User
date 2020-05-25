@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.giyadabi.appat.auth.LoginActivity
 
-// halaman SplashCreen
+// halaman SplashCreen , yang pertama tampil
 class SplashScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
